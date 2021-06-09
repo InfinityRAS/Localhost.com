@@ -1,8 +1,8 @@
 const content = document.querySelector(".content")
 
-function show(type, text) {
+function show(type, msg) {
     const uiString = `<div class="div-${type} div-show">
-                            ${text}
+                            ${msg}
                         </div>`;
     content.innerHTML = uiString;
 }
