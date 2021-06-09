@@ -20,7 +20,7 @@ btn.addEventListener("click", (e) => {
             show("success", `You're being redirected to http://127.0.0.1:${text} in 5 seconds`);
     
             setTimeout(() => {
-                window.location.href = `127.0.0.1:${text}`;
+                window.location.href = `http://127.0.0.1:${text}`;
             }, 5000);
         }   else {
             show("danger", "Invalid Port... Port Number should be more than or equal to 0 and must be less than 65535")
