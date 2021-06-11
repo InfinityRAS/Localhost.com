@@ -24,9 +24,9 @@ btn.addEventListener("click", (e) => {
             }, 5000);
         }   else {
             show("danger", "Invalid Port... Port Number should be more than or equal to 0 and must be less than 65535")
-            // setTimeout(() => {
-            //     content.innerHTML = ""
-            // }, 3000);
+            setTimeout(() => {
+            	content.innerHTML = ""
+            }, 3000);
         }
     }, 1000)
 
